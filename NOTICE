@@ -1,0 +1,9 @@
+AirBoot
+Copyright (c) 2026 Noor Latif. Licensed under the MIT License (see LICENSE).
+
+AirBoot builds on the work of others. Their own licences apply to their own parts.
+
+- Alpine Linux aports (https://gitlab.alpinelinux.org/alpine/aports). aports-patch/mkimg.abt.sh and scripts/genapkovl-abt.sh were written with Alpine's scripts/mkimage.sh, mkimg.standard.sh and genapkovl-dhcp.sh as reference (see REFERENCE.md). aports is not included; build.sh clones it at build time.
+- netboot.xyz (https://github.com/netbootxyz). catalog/netboot-full.json is generated from netboot.xyz's endpoints.yml and lists images from its asset mirror.
+- Ventoy (https://www.ventoy.net). AirBoot hands off to Ventoy and does not include it.
+- The catalogue links to images published by upstream distributions (for example Debian, Ubuntu and Omarchy). Those images keep their own licences and are not part of this repository.
